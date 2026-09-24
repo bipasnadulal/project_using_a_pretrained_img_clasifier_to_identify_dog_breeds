@@ -101,3 +101,21 @@ The primary program modified for this project is:
 ```text
 check_images.py
 ```
+## Dataset and Labels
+
+The project uses a collection of pet images stored in the pet_images directory.
+
+The expected labels are generated from the image filenames.
+
+For example, an image filename containing a dog breed provides the expected breed label used to evaluate the classifier's prediction.
+
+The project also uses:
+
+dognames.txt
+
+to determine whether a classifier's predicted label represents a dog breed.
+
+This allows predictions to be categorized as:
+
+Dog
+Not Dog
