@@ -92,3 +92,12 @@ Calculate Accuracy + Runtime
     │
     ▼
 Compare ResNet / AlexNet / VGG
+```
+
+#  Main Program
+
+The primary program modified for this project is:
+
+```text
+check_images.py
+```
